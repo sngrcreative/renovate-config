@@ -5,7 +5,7 @@
     "schedule:weekends",
     "schedule:automergeEarlyMondays",
     ":maintainLockFilesWeekly",
-    ":automergeStableNonMajor",
+    ":automergeMinor",
     ":automergeRequireAllStatusChecks"
   ],
   "timezone": "Asia/Jakarta"
