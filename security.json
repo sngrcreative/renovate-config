@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "security:only-security-updates",
+    ":maintainLockFilesWeekly",
+    ":automergeAll",
+    ":automergeRequireAllStatusChecks"
+  ],
+  "timezone": "Asia/Jakarta"
+}
