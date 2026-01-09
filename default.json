@@ -1,12 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices",
-    "schedule:weekends",
-    "schedule:automergeEarlyMondays",
-    ":maintainLockFilesWeekly",
-    ":automergeMinor",
-    ":automergeRequireAllStatusChecks"
+    "forgejo>sngrcreative/renovate-config"
   ],
   "timezone": "Asia/Jakarta"
 }
